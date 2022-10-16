@@ -51,7 +51,7 @@ void hit_stand(char* choice){
 	}
 }
 
-void check(int sum1, int sum2){
+void check(int sum1, int sum2){// To check whether the sum is greater than 21.
 	if (sum1>21 && sum2>21){
 		printf("\nBoth got busted-_-\n");
 		printf("Current amount: %d\n",money);
