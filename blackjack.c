@@ -38,7 +38,7 @@ void opponent_cards(int m){
 	printf("sum=%d\n\n",sum2);
 }
 
-void board(int m,int n){
+void board(int m,int n){ //For displaying opponent and hour cards
 	opponent_cards(m);
 	my_cards(n);
 }
