@@ -8,7 +8,7 @@ int card[52];
 char user[10]="yes";
 int sum1=0,sum2=0;
 
-void win(){
+void win(){ // To calculate the winning amount
 	money=money+bet;
 	printf("Current amount: %d\n\n",money);
 }
