@@ -13,7 +13,7 @@ void win(){ // To calculate the winning amount
 	printf("Current amount: %d\n\n",money);
 }
 
-void lose(){
+void lose(){// To calculate amount left after loosing.
 	money=money-bet;
 	printf("Current amount: %d\n\n",money);
 }
